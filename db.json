@@ -10,5 +10,21 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "card-valid": {
+    "RFIDState": "Valid",
+    "AccountBalance": 25.45
+  },
+  "card-limit-exceeded": {
+    "RFIDState": "CreditLimitExceeded",
+    "AccountBalance": -4
+  },
+  "card-blacklisted": {
+    "RFIDState": "BlackListed",
+    "AccountBalance": null
+  },
+  "card-unknown": {
+    "RFIDState": "Unknown",
+    "AccountBalance": null
   }
 }
